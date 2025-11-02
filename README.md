@@ -2,7 +2,7 @@
 
 **SCADA & Automation Engineer | Flutter Developer | Backend Developer**  
 📍 West Java, Indonesia  
-📧 [lutfiandisn@gmail.com](mailto:lutfiandisn@gmail.com)  
+📧 [lutfiandisn@gmail.com](mailto:business.lutfiandisn@gmail.com?subject=Business%20Inquiry)  
 🔗 [LinkedIn](https://www.linkedin.com/in/lutfiandisn/)  
 
 ---
@@ -43,7 +43,7 @@ My goal is to keep improving my technical and analytical skills to bridge automa
 
 ---
 
-### **PT. Yokogawa Indonesia** – *Support Engineer (Internship)*  
+### **Yokogawa Indonesia** – *Support Engineer (Internship)*  
 📅 January – March 2022  
 Generated HMI graphics, performed product visual inspections, and collaborated on technical documentation.
 
