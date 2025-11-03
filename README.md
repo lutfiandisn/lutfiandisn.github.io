@@ -2,7 +2,7 @@
 
 **SCADA & Automation Engineer | Flutter Developer | Backend Developer**  
 📍 West Java, Indonesia  
-📧 [lutfiandisn@gmail.com](mailto:business.lutfiandisn@gmail.com?subject=Business%20Inquiry)  
+📧 [business.lutfiandisn@gmail.com](mailto:business.lutfiandisn@gmail.com?subject=Business%20Inquiry)  
 🔗 [LinkedIn](https://www.linkedin.com/in/lutfiandisn/)  
 
 ---
