@@ -1,4 +1,4 @@
-const skills = [
+const techStack = [
   "HTML/CSS",
   "JavaScript",
   "MySQL",
@@ -14,12 +14,12 @@ const skills = [
   "Figma",
 ];
 
-export default function Skills() {
+export default function TechStack() {
   return (
     <section className="mt-8">
-      <h3 className="text-xl font-semibold">Skills</h3>
+      <h3 className="text-xl font-semibold">Tech Stack</h3>
       <div className="mt-3 flex flex-wrap gap-2">
-        {skills.map((s) => (
+        {techStack.map((s) => (
           <span
             key={s}
             className="px-3 py-1 bg-white border rounded text-sm shadow-sm"
