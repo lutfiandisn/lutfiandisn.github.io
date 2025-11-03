@@ -43,13 +43,13 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section className="mt-8">
+    <section className="mt-8 border shadow-lg bg-white rounded-lg p-6">
       <h3 className="text-xl font-semibold mb-4">Work Experience</h3>
       <div className="space-y-6">
         {experiences.map((exp) => (
           <div
             key={exp.company}
-            className="bg-white border rounded-2xl shadow-sm p-5 hover:shadow-md transition-all duration-300"
+            className="border-b pb-6 last:pb-0 last:border-b-0"
           >
             <img
               src={exp.logoUrl}
