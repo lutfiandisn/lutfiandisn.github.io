@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 const experiences = [
   {
     company: "Actemium Systems Indonesia",
@@ -43,7 +45,11 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section className="mt-8 border shadow-lg bg-white rounded-lg p-6">
+    <motion.section
+    initial={{ x: -100, opacity: 0 }}
+      animate={{ x: 0, opacity: 1 }}
+      transition={{ duration: 1 }}
+      className="mt-8 border shadow-lg bg-white rounded-lg p-6">
       <h3 className="text-xl font-semibold mb-4">Work Experience</h3>
       <div className="space-y-6">
         {experiences.map((exp) => (
@@ -80,6 +86,6 @@ export default function Experience() {
           </div>
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 }

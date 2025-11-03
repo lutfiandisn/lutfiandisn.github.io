@@ -1,6 +1,12 @@
+import { motion } from "framer-motion";
+
 export default function Contact() {
   return (
-    <section className="mt-8 border shadow-lg bg-white rounded-lg p-6">
+    <motion.section
+    initial={{ y: 100, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 1 }}
+      className="mt-8 border shadow-lg bg-white rounded-lg p-6">
       <h3 className="text-xl font-semibold">Contact</h3>
       <p className="mt-2 text-gray-700">
         Email:{" "}
@@ -20,6 +26,6 @@ export default function Contact() {
           linkedin.com/in/lutfiandisn
         </a>
       </p>
-    </section>
+    </motion.section>
   );
 }
