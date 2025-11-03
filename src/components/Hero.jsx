@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col sm:flex-row items-center sm:items-start gap-6 py-8">
+    <section className="flex flex-col sm:flex-row items-center sm:items-start gap-6 py-8 ">
       <img
         src="/profile.png"
         alt="Profile"

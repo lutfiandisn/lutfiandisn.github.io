@@ -1,6 +1,7 @@
 const experiences = [
   {
     company: "Actemium Systems Indonesia",
+    logoUrl: "/actemium-logo.png",
     roles: [
       {
         title: "Automation Engineer",
@@ -25,6 +26,7 @@ const experiences = [
   },
   {
     company: "Yokogawa Indonesia",
+    logoUrl: "/yokogawa-logo.png",
     roles: [
       {
         title: "Support Engineer (Internship)",
@@ -49,7 +51,14 @@ export default function Experience() {
             key={exp.company}
             className="bg-white border rounded-2xl shadow-sm p-5 hover:shadow-md transition-all duration-300"
           >
-            <h4 className="text-lg font-bold text-indigo-700">{exp.company}</h4>
+            <img
+              src={exp.logoUrl}
+              alt={exp.company}
+              className="w-15 h-15 shadow-md rounded-lg"
+            />
+            <h4 className="text-lg font-bold text-indigo-700 mt-3">
+              {exp.company}
+            </h4>
 
             <div className="mt-3 space-y-4">
               {exp.roles.map((role, i) => (
