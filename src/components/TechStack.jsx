@@ -19,10 +19,11 @@ const techStack = [
 export default function TechStack() {
   return (
     <motion.section
-      initial={{ x: 100, opacity: 0 }}
-      animate={{ x: 0, opacity: 1 }}
-      transition={{ duration: 1 }}
-      className="mt-8 border shadow-lg bg-white rounded-lg p-6">
+      initial={{ y: -100, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.8 }}
+      className="mt-4 border border-gray-300 bg-white p-6"
+    >
       <h3 className="text-xl font-semibold">Tech Stack</h3>
       <div className="mt-3 flex flex-wrap gap-2">
         {techStack.map((s) => (

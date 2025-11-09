@@ -22,10 +22,11 @@ const projects = [
 export default function Projects() {
   return (
     <motion.section
-    initial={{ x: 100, opacity: 0 }}
-      animate={{ x: 0, opacity: 1 }}
-      transition={{ duration: 1 }}
-      className="mt-8 border shadow-lg bg-white rounded-lg p-6">
+      initial={{ y: -100, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.8 }}
+      className="mt-4 border border-gray-300 bg-white p-6"
+    >
       <h3 className="text-xl font-semibold">Projects</h3>
       <div className="mt-3 grid grid-cols-1 md:grid-cols-2 gap-3">
         {projects.map((p) => (
