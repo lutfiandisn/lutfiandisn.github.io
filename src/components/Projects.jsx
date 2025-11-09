@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 const projects = [
   {
     name: "PLC Upgrade & Modernization",
@@ -21,10 +19,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <motion.section
-      initial={{ y: -100, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.8 }}
+    <section
       className="mt-4 border border-gray-300 bg-white p-6"
     >
       <h3 className="text-xl font-semibold">Projects</h3>
@@ -36,6 +31,6 @@ export default function Projects() {
           </div>
         ))}
       </div>
-    </motion.section>
+    </section>
   );
 }

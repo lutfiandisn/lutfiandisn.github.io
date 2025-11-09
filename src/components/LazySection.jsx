@@ -23,9 +23,9 @@ export default function LazySection({ component: Component, threshold = 0.2 }) {
       {inView ? (
         <Suspense fallback={<Skeleton />}>
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            initial={{ x: -100, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.8 }}
           >
             <Component />
           </motion.div>

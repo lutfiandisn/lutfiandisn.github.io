@@ -1,11 +1,6 @@
-import { motion } from "framer-motion";
-
 export default function Hero() {
   return (
-    <motion.section
-      initial={{ y: -100, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.8 }}
+    <section
       className="flex flex-col sm:flex-row items-center sm:items-start gap-6 py-8 border border-gray-300 bg-white px-6"
     >
       <img
@@ -34,6 +29,6 @@ export default function Hero() {
           </a>
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 }

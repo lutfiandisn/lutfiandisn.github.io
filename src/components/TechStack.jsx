@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 const techStack = [
   "HTML/CSS",
   "JavaScript",
@@ -18,10 +16,7 @@ const techStack = [
 
 export default function TechStack() {
   return (
-    <motion.section
-      initial={{ y: -100, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.8 }}
+    <section
       className="mt-4 border border-gray-300 bg-white p-6"
     >
       <h3 className="text-xl font-semibold">Tech Stack</h3>
@@ -35,6 +30,6 @@ export default function TechStack() {
           </span>
         ))}
       </div>
-    </motion.section>
+    </section>
   );
 }
